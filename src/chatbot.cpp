@@ -1,6 +1,8 @@
 #include <iostream>
 #include <random>
 #include <algorithm>
+#include <utility>
+#include <memory>
 #include <ctime>
 
 #include "chatlogic.h"
@@ -68,7 +70,7 @@ ChatBot& ChatBot::operator=(const ChatBot& otherChatbot)
 }
 
 //Move constructor     
-ChatBot::ChatBot(ChatBot&& otherChatbot)
+ChatBot::ChatBot(ChatBot&& otherChatbot) noexcept
 {
     std::cout << "ChatBot Move constructor" << std::endl;
     _chatLogic = otherChatbot._chatLogic;
@@ -80,7 +82,7 @@ ChatBot::ChatBot(ChatBot&& otherChatbot)
 }
 
 //Move assignment            
-ChatBot& ChatBot::operator=(ChatBot&& otherChatbot)
+ChatBot& ChatBot::operator=(ChatBot&& otherChatbot) noexcept
 {
     std::cout << "ChatBot Move assignment" << std::endl;
     if(this == &otherChatbot) return *this;
