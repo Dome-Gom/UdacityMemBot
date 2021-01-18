@@ -61,7 +61,8 @@ ChatBot& ChatBot::operator=(const ChatBot& otherChatbot)
     if (this == &otherChatbot) return *this;
     _chatLogic = otherChatbot._chatLogic;
     _rootNode = otherChatbot._rootNode;
-    delete _image;
+    if(_image != NULL)
+        delete _image;
     _image = new wxBitmap(*otherChatbot._image);
    return *this;
 }

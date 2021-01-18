@@ -72,27 +72,11 @@ string
 chatgui.h
 /home/workspace/Chatbot/CppND-Memory-Management-Chatbot/src/chatgui.h
 
-/home/workspace/Chatbot/CppND-Memory-Management-Chatbot/src/graphedge.cpp
-graphnode.h
-/home/workspace/Chatbot/CppND-Memory-Management-Chatbot/src/graphnode.h
-graphedge.h
-/home/workspace/Chatbot/CppND-Memory-Management-Chatbot/src/graphedge.h
-
 /home/workspace/Chatbot/CppND-Memory-Management-Chatbot/src/graphedge.h
 vector
 -
 string
 -
-
-/home/workspace/Chatbot/CppND-Memory-Management-Chatbot/src/graphnode.cpp
-memory
--
-utility
--
-graphedge.h
-/home/workspace/Chatbot/CppND-Memory-Management-Chatbot/src/graphedge.h
-graphnode.h
-/home/workspace/Chatbot/CppND-Memory-Management-Chatbot/src/graphnode.h
 
 /home/workspace/Chatbot/CppND-Memory-Management-Chatbot/src/graphnode.h
 vector
